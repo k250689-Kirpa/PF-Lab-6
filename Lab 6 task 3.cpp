@@ -10,7 +10,7 @@ int main()
 	for (int i = 0; num > 1; i++)
 	{
 		rem = num%10;
-		rev = rem*10 + rem;
+		rev = rev*10 + rem;
 		
 		num = num/10;
 	}
@@ -19,4 +19,5 @@ int main()
 	
 	return 0;
 }
+
 
